@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/criarmovimento', 'MovimentosController@create')->name('criarMovimento');
+Route::get('/listarmovimentos', 'MovimentosController@index')->name('listarMovimentos');
+
+
+
+
+
+
+
