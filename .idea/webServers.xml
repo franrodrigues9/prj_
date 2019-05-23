@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8a3dd4bb-0720-472e-a2c3-ed5443f0de8f" name="homestead" url="http://ainet.prj.test">
+        <fileTransfer port="0" mountedRoot="C:\Users\Francisco\AInet\pratica\prj" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
